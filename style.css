@@ -1,0 +1,587 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --swiper-theme-color: rgb(55, 127, 142) !important;
+}
+.swiper {
+    width: 100%;
+    height: 80vh;
+  }
+.swiper2{
+    width: 80% !important;
+    height: fit-content !important;
+}
+.swiper3{
+    width: 100% !important;
+    opacity: 100% !important;
+    height: 70%;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.swiper-pagination{
+    transform: scale(1.5) !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 2em;
+    width: 50px;
+    text-transform: none!important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+.swiper-button-next{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.swiper-button-prev{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 60%;
+  }
+.slide2 img{
+    opacity: 100% !important;
+    width: 100% !important;
+}
+
+.swipe3{
+    background-color: rgb(233, 233, 233);
+    padding-block: 4rem;
+}
+
+.slide3 img{
+    opacity: 100% !important;
+    width: 100% !important;
+}
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+body{
+    background: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+.swipe_text{
+    position: absolute;
+    top:0;
+    margin-top: 12em;
+    margin-left: 6em;
+    color: #434445;
+    width: 80%;
+    z-index: 5;
+}
+.swipe_text h1{
+    color: #434445;
+    font-size: 3em;
+    line-height: 1em;
+}
+.swipe{
+    position: relative;
+}
+.swipe_text p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    font-family: 'Quicksand', sans-serif;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2rem;
+    color: rgb(55, 127, 142);
+    user-select: none;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 1.1rem;
+    color: rgb(55, 127, 142);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navbar a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: rgb(55, 127, 142);
+    border-radius: 5px ;
+    left: 0;
+    bottom: -6px;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transform-origin: left;
+}
+.navbar a:hover::after{
+    transform: scaleX(1);
+}
+
+
+.btn1{
+    background-color: rgb(55, 127, 142);
+    width: 130px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 1.1rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color:transparent;
+    color: rgb(55, 127, 142);
+    border: solid 2px rgb(55, 127, 142);
+}
+.swipe{
+    margin-top: 5em;
+}
+
+
+.our_services {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.our_services h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color:#434445;
+    margin-top: 10px;
+}
+
+.our_services p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #434445;
+}
+
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 3rem;
+   
+}
+
+.image{
+    margin-right: 15px;
+}
+
+.image h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(55, 127, 142);
+    margin-top: .8rem;
+}
+
+.img{
+    width: 350px;
+}
+
+.btn2{
+    background-color: rgb(55, 127, 142);
+    width: 130px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 1.1rem;
+    border: none;
+    font-size: 1rem;
+    
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color:transparent;
+    color: rgb(55, 127, 142);
+    border: solid 2px rgb(55, 127, 142);
+}
+
+.learn-btn{
+    margin-bottom: 20px;
+}
+
+.best{
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    padding: 40px;
+}
+
+.best p{
+    color: rgb(55, 127, 142);
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.best h1{
+    color: #434445;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.best-btn{
+    margin-top: 20px;
+}
+
+.book-online{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.book-text{
+    /* text-align: center; */
+}
+
+.book-text h1{
+    color: #434445;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.book-text p{
+    color: #434445;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+}
+
+.email{
+    margin-top: 10px;
+}
+
+.email h5{
+    color: rgb(55, 127, 142);
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 5px;
+}
+
+.email p{
+    color: #434445;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+}
+
+/* form{
+    width: fit-content;
+} */
+
+.form-box h2{
+    font-size: 1rem;
+    color:  #434445;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+.input-box{
+    position: relative;
+    width: 25rem;
+    height: 50px;
+    border-bottom: 1px solid  #434445;
+    margin: 14px 0;
+   
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color:  #434445;
+    font-weight: 300;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+   
+    
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color:  #434445;
+    font-weight: 300 ;
+    padding: 0 35px  0 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color:  #434445;
+    line-height: 57px;
+}
+
+
+
+
+.inline-name{
+    display: inline-flex;
+    width: 25rem;
+    /* margin-left: 5px; */
+    gap: 25px;
+}
+
+.date-time{
+    display: flex;
+    width: 25rem;
+    gap: 25px;
+} 
+
+
+.about-top{
+    margin-top: 88px;
+}
+
+.about-top img{
+    width: 100%;
+}
+
+
+.hire-us{
+   
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    padding-inline: 1.5rem;
+    padding-bottom: 3.5rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hire{
+    width: 600px;
+}
+
+
+
+.hire p{
+    color: rgb(55, 127, 142);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.hire h1{
+    color: #434445;
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+
+.estates{
+    width: 700px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 50 !important;
+    font-size: 1.1rem;
+}
+
+.estates p{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300 !important;
+    font-size: 1.1rem;
+}
+
+.our-results{
+    width: 90%;
+    background-color: rgb(220, 232, 239);
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding-inline: 12rem;
+}
+
+.our-results h1{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #434445;
+    
+}
+
+.our-results p{
+    font-family: 'Quicksand', sans-serif;
+    color:  #434445;
+    font-size: 1.1rem;
+}
+
+.results{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.results-content p{
+    color: #377f8e;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.best-services{
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    height: 250px;
+    padding-block: 7rem; 
+    margin-top: 2rem; 
+}
+
+.best-services h1{
+    color: #434445;
+    font-size: 3rem;
+    font-weight: 400;
+    
+}
+
+.clients{
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+    padding-inline: 3rem;
+}
+
+.clients h1{
+    color: #434445;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.clients p{
+    color: #434445;
+    font-weight: 200;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.img-clients{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-clients img{
+    width: 195px;
+    height: 195px;
+    margin-top: 5rem;
+}
+
+
+.address-hours{
+    display: flex;
+}
+
+.address{
+    background: rgb(213, 207, 207);
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.address h1{
+    color: #434445;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+
+.address hr{
+    height: 0.1rem;
+    width: 3rem;
+    background-color: #377f8e;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+
+.address p{
+    color: #434445;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;  
+}
+
+.emaill{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.address h5{
+    font-size: 1.5rem;
+}
+
+
+.address2{
+    background: #E5EDF1;
+}
+
+
+.main-booking{
+    background: rgb(233, 233, 233);
+}
