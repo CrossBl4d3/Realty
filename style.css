@@ -132,6 +132,7 @@ header{
 .navbar a{
     position: relative;
     font-size: 1.1rem;
+    font-family: 'Quicksand', sans-serif;
     color: rgb(55, 127, 142);
     text-decoration: none;
     font-weight: 500;
@@ -367,6 +368,7 @@ header{
 .input-box .icon{
     position: absolute;
     right: 8px;
+    top: -25px;
     font-size: 1.2em;
     color:  #434445;
     line-height: 57px;
@@ -535,12 +537,14 @@ header{
 }
 
 .address{
-    background: rgb(213, 207, 207);
+    background: rgb(210, 208, 208);
     text-align: center;
     width: 50%;
+    height: 613.6px;
     display: flex;
     flex-direction: column;
     place-items: center;
+    margin-top: 2rem;
 }
 
 .address h1{
@@ -565,6 +569,7 @@ header{
     font-weight: 400;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2rem;  
+
 }
 
 .emaill{
@@ -573,7 +578,7 @@ header{
 }
 
 .address h5{
-    font-size: 1.5rem;
+    color: #434445;
 }
 
 
@@ -584,4 +589,272 @@ header{
 
 .main-booking{
     background: rgb(233, 233, 233);
+}
+
+.address2 h5{
+    color: #434445;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;  
+
+}
+
+.address2 span{
+    color: #434445;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;  
+    margin-left: 2rem;
+}
+
+.address2,h5,span{
+    margin-block: 2rem;
+
+}
+
+
+.hero{
+    margin-top: 100px;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    padding-inline: 2rem;
+}
+
+
+.ourservices{
+    width: 100%;
+    justify-content: space-between;
+    padding-inline: 8rem;
+    align-items: center;
+}
+
+
+
+.ourservices  h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #434445;
+   
+
+}
+
+.hero-image{
+    margin-right: 3rem;
+    max-height: 650px;
+    max-width: 650px;
+}
+
+.ourservices hr{
+    height: 0.1rem;
+    width: 8rem;
+    background-color: #377f8e;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.ourservices h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(55, 127, 142);
+    margin-top: 1.5rem;
+}
+
+.ourservices p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
+    margin-top: 1rem; 
+}
+
+.bookbtn{
+    margin-top: 2rem;
+}
+
+
+.price-list{
+    text-align: center;
+    background-color: #e0e0e0;
+    padding-block: 38px;
+}
+
+.price-list p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(55, 127, 142);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.price-list h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #434445;
+}
+
+.property{
+    width: 570px;
+    text-align: start;
+}
+
+.paragraph{
+    width: 80%;
+}
+
+.paragraph p{
+    font-size: 1.2rem;
+    color: #434445;
+}
+
+.management{
+    display: flex;
+    justify-content: space-between;
+}
+
+.management h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(55, 127, 142);
+    /* margin-top: 1.5rem; */
+}
+
+.management p{
+    color: #434445;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.management span{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.property hr{
+    width: 100%;
+    border: none;
+    background-color: white;
+    height: 0.5px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.valuation{
+    margin-top: 2rem;
+}
+
+
+.all-services{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 11rem;
+    margin-top: 2rem;
+}
+
+.hand{
+    position: relative;
+}
+
+.hand img{
+    width: 100%;
+    height: 480px;
+    
+}
+
+.overhand{
+    position: absolute;
+    top: 2.5rem;
+    right: 4.5rem;
+    background: #e0e0e0;
+}
+
+
+.numbers{
+    display: flex;
+    gap: 2rem;
+}
+.yearsof{
+    height: 230px;
+    width: 246px;
+    background-color: #E5EDF1;
+    padding: 2.5rem;
+    margin-top: 2rem;
+    /* align-items: center; */
+}
+
+.yearsof p{
+    color: #377f8e;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.explorebtn{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.reviews{
+    margin-top: 10rem;
+    background: #e0e0e0;
+    padding-block: 3rem;
+    padding-inline: 13rem;
+}
+
+.reviews h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #434445;
+}
+
+.thoughts{
+    margin-top: 2rem;
+}
+
+.thoughts hr{
+    border: none;
+    height: 1px;
+    background-color: #434445;
+    width: 3rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.thoughts p{
+    font-size: 1.2rem;
+    color: #434445;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.reviewers{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.reviewers img{
+    border-radius: 50%;
+    
+}
+
+.post h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(55, 127, 142);
+}
+
+.contact-main{
+    margin-top: 5rem;
+    padding-inline: 10rem;
+}
+
+.contact-form{
+    border: solid 0.2px rgb(221, 214, 214);
+    padding: 2rem;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
 }
