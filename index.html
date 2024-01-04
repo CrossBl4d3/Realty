@@ -7,18 +7,24 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
     <header>
         <h2 class="logo">Fake Estate</h2>
-    
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
         <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="About.html">About us</a>
-            <a href="Services.html">Services</a>
-            <a href="Contact.html">Contact Us</a>
-            <a href="Booking.html">Booking</a>
+            <a href="index.html" style="--i:0;">Home</a>
+            <a href="About.html" style="--i:1;">About us</a>
+            <a href="Services.html" style="--i:2;">Services</a>
+            <a href="Contact.html" style="--i:3;">Contact Us</a>
+            <a href="Booking.html" style="--i:4;">Booking</a>
 
         </nav>
 
@@ -93,14 +99,21 @@
 
 
         <div class="email">
-            <h5>Email</h5>
-            <p>example@example.com</p>
 
-            <h5>Phone</h5>
-            <p>+123 4563 7892</p>
+            <div>
+                <h5>Email</h5>
+                <p>example@example.com</p>
+            </div>
 
-            <h5>Address</h5>
-            <p>Gwarimpa, Abuja WC2R 2LS, Nigeria</p>
+            <div>
+                <h5>Phone</h5>
+                <p>+123 4563 7892</p>
+            </div>
+
+            <div>
+                <h5>Address</h5>
+                <p>Gwarimpa, Abuja WC2R 2LS, Nigeria</p>
+            </div>
         </div>
 
 
@@ -187,9 +200,9 @@
             <h1>Address</h1>
             <hr>
 
-
-            <p>We’re excited to meet you! Feel free to get in touch with us</p>
-            <p>within these working hours.</p>
+            <div class="responsive">
+                <p>We’re excited to meet you! Feel free to get in touch with us within these working hours.</p>
+            </div>
 
         
             <div class="email emaill">
@@ -215,8 +228,7 @@
             <hr>
 
 
-            <p>We’re excited to meet you! Feel free to get in touch with us</p>
-            <p>within these working hours.</p>
+            <p>We’re excited to meet you! Feel free to get in touch with us within these working hours.</p>
 
          <div class="daytime">
             <h5>Monday <span>09 : 00am - 07 : 30pm</span></h5>

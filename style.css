@@ -121,6 +121,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
 .logo{
@@ -128,6 +129,16 @@ header{
     color: rgb(55, 127, 142);
     user-select: none;
 }
+
+
+#menu-icon{
+    position: relative;
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    /* display: none; */
+}
+
 
 .navbar a{
     position: relative;
@@ -153,6 +164,19 @@ header{
 }
 .navbar a:hover::after{
     transform: scaleX(1);
+}
+
+#check{
+    display: none;
+}
+
+.icons{
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: #377f8e;
+    cursor: pointer;
+    display: none;
 }
 
 
@@ -858,3 +882,255 @@ header{
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 1023px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 1091px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 1065px){
+    .img{
+        width: 300px;
+    }
+
+    .image{
+        margin-inline: auto;
+    }
+}
+    
+
+@media (max-width: 992px){
+    .img{
+        width: 250px;
+    }
+
+    .html{
+        font-size: 100%;
+    }
+
+    .image{
+        margin-inline: auto;
+    }
+
+    #check:checked~.icons #menu-icon{
+        display: none;
+    } 
+
+    .icons{
+        display: inline-flex;
+    }
+
+    .icons #close-icon{
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon{
+        display: block;
+    }
+
+    /* header{
+        
+    } */
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        background: #e0e0e0;
+        transition: .5s ease;
+    }
+
+    #check:checked~.navbar{
+        height: 17.7rem;
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .5s ease;
+        opacity: 0;
+    }
+
+
+    #check:checked~.navbar a{
+        transform: translateY(0);
+        transition-delay: calc(.15s * var(--i));
+        opacity: 1;
+
+    }
+}
+    @media (max-width: 747px){
+        .img{
+            width: 200px;
+        }
+
+        .book-online{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .email{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .email p{
+            font-size: 1.2rem;
+        }
+
+        .book-online{
+            gap: 2rem;
+        }
+
+        .book-text h1{
+            font-size: 4rem;
+        }
+
+        .book-text p{
+            font-size: 2rem;
+        }
+
+        .input-box{
+            width: 100%;
+            border-bottom: 1.2px solid #434445;
+        }
+
+        .date-time{
+            width: 100%;
+        }
+
+        .inline-name{
+            width: 100%;
+        }
+
+        .address-hours{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .address{
+            width: 100%;
+            
+        }
+
+        .responsive{
+            display: flex;
+        }
+
+        .email{
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+        }
+
+        .address{
+            height: fit-content;
+            margin-top: 0;
+            padding: 2rem;
+            margin-bottom: 0;
+        }
+        .address-hours{
+            gap: 0;
+        }
+    }
+
+    @media (max-width: 698px){
+        .images{
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+        }
+        .images img{
+            width: 500px;
+        }
+
+        .images p{
+            font-size: 2rem;
+        }
+
+        .images h2{
+            font-size: 2.5rem;
+        }
+
+        .our_service p{
+            font-size: 1.5rem;
+        }
+    }
+
+    @media ( max-width: 570px){
+        .images img{
+            width: 400px;
+        }
+
+
+       .images{
+        place-self: center;
+       }
+
+       .header{
+        padding-inline: 1px;
+        align-items: stretch;
+       }
+    }
+
+    @media (max-width: 470px){
+        .images img{
+            width: 380px;
+        }
+
+        
+        .images p{
+            font-size: 1.5rem;
+        }
+
+        .images h2{
+            font-size: 2rem;
+        }
+
+        .our_service p{
+            font-size: 1..3rem;
+        }
+    }
+        
+
+
+    
+
+    @media (max-width: 480px){
+        .logo{
+            font-size: 1.5rem;
+        }
+    }
+
+    @media (max-width: 455px){
+        .images img{
+            width: 360px;
+        }
+
+        .logo{
+            font-size: 1rem;
+        }
+        .header{
+            padding-inline: 0;
+        }
+    }
+
+    @media (max-width: 400px){
+        .images img{
+            width: 310px;
+        }
+    }
