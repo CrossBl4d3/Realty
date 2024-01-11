@@ -124,6 +124,10 @@ header{
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
+
+.header .realty{
+    width: 5%;
+}
 .logo{
     font-size: 2rem;
     color: rgb(55, 127, 142);
@@ -892,6 +896,86 @@ header{
     display: flex;
     justify-content: center;
 }
+
+
+
+footer {
+    margin-top: 30px;
+    background-color: #e0e0e0;
+  }
+  footer h1 {
+    color: #377f8e;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 8px;
+  }
+  footer h2 {
+    color: #377f8e;
+    font-size: 40px;
+    text-align: center;
+  }
+  footer h4 {
+    color: #377f8e;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 8px;
+  }
+  .fanct {
+    /* 
+    text-align: center;
+    padding-top: 30px; */
+    color: #377f8e;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .fb_icon {
+    color: #377f8e;
+    padding: 30px;
+  }
+  .fb_icon:hover {
+    color: #377f8e;
+  }
+  .but {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }
+  .but p {
+    color: #434445;
+    margin: 10px;
+    line-height: 2em;
+  }
+  .email-input {
+    width: 50%;
+    padding: 1em;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+  }
+  form {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .submit-button {
+    background-color: #377f8e;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 2px solid white;
+    margin-top: 10px;
+  }
+  .submit-button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: rgb(115, 119, 122);
+  }
 
 @media (max-width: 1023px){
     html{
